@@ -3,6 +3,7 @@ import Helmet from "react-helmet"
 import { ThemeProvider } from "@emotion/react"
 import { useThemeMode } from "../hooks/useThemeMode"
 import { GlobalStyles } from "./GlobalStyles"
+import { Navbar } from "./Navbar"
 
 const themes = {
   default: {
@@ -10,7 +11,7 @@ const themes = {
     color: "#000000",
   },
   dark: {
-    background: "#5e1f5d",
+    background: "#24042c",
     color: "#5e1f5d",
   },
 }
@@ -39,7 +40,7 @@ const Layout = ({ children }) => {
             rel="stylesheet"
           />
         </Helmet>
-        <h1>Desde layout</h1>
+        <Navbar />
         {children}
       </ThemeProvider>
     </>
