@@ -27,6 +27,9 @@ export const Navbar = () => {
   useEffect(() => {
     changeNav()
     window.addEventListener("scroll", changeNav)
+    return () => {
+      window.removeEventListener("scroll", changeNav)
+    }
   }, [])
 
   return (
@@ -42,22 +45,27 @@ export const Navbar = () => {
           <NavMenu onClick={handleClick} click={click}>
             <NavItem>
               <NavLink active={scroll} to="/" activeClassName="active">
-                Home
+                Inicio
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink active={scroll} to="/">
-                Home
+              <NavLink active={scroll} to="/history" activeClassName="active">
+                Nosotros
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink active={scroll} to="/">
-                Home
+              <NavLink active={scroll} to="/services" activeClassName="active">
+                Servicios
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink active={scroll} to="/">
-                Home
+              <NavLink active={scroll} to="/portfolio" activeClassName="active">
+                Portafolio
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink active={scroll} to="/contact" activeClassName="active">
+                Contacto
               </NavLink>
             </NavItem>
           </NavMenu>
