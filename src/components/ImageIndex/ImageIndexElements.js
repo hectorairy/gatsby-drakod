@@ -6,6 +6,12 @@ export const ImageBgSection = styled.section`
   /* padding-top: 130px; */
   position: relative;
   background-color: #8338ec;
+  background: linear-gradient(
+    135deg,
+    rgba(131, 56, 236, 1) 0%,
+    rgba(131, 56, 236, 1) 35%,
+    rgba(0, 180, 216, 1) 100%
+  );
 `
 
 export const ImageBgOverlay = styled.div`
