@@ -4,6 +4,7 @@ import { ThemeProvider } from "@emotion/react"
 import { useThemeMode } from "../hooks/useThemeMode"
 import { GlobalStyles } from "./GlobalStyles"
 import { Navbar } from "./Navbar"
+import { Footer } from "./Footer"
 
 const themes = {
   default: {
@@ -42,6 +43,7 @@ const Layout = ({ children }) => {
         </Helmet>
         <Navbar />
         {children}
+        <Footer />
       </ThemeProvider>
     </>
   )
