@@ -2,8 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "@emotion/styled"
 import { css } from "@emotion/react"
-import { services } from "../../../data/services"
-import { ServiceCard } from "../../ServiceCard"
+import { services } from "../../data/services"
+import { ServiceCard } from "../ServiceCard"
 
 const ListServices = styled.ul`
   max-width: 1200px;
@@ -28,7 +28,7 @@ const Button = styled(Link)`
   text-align: center;
 `
 
-export const ServicesCards = () => {
+export const ServicesList = () => {
   return (
     <div
       css={css`

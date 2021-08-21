@@ -2,8 +2,8 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { Banner } from "../components/Banner"
 import Layout from "../components/layout"
-import { ServicesPresentation } from "../components/ServicesComponents/ServicesPresentation"
-import { ServicesCards } from "../components/ServicesComponents/ServicesCards"
+import { ServicesList } from "../components/ServicesList"
+import { HeaderPage } from "../components/HeaderPage"
 
 const Services = () => {
   const { imageBg } = useStaticQuery(graphql`
@@ -26,8 +26,11 @@ const Services = () => {
         subtitle={"Haremos que te enamores de tu web"}
       />
       <div className="container">
-        <ServicesPresentation />
-        <ServicesCards />
+        <HeaderPage
+          text="¡EXPRIMAMOS TODO EL POTENCIAL A TU WEB!"
+          title="Nuestros servicios"
+        />
+        <ServicesList />
       </div>
     </Layout>
   )

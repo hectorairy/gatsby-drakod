@@ -1,12 +1,12 @@
 import styled from "@emotion/styled"
 
-export const SectionPresentation = styled.section`
+export const SectionHeaderPage = styled.section`
   text-align: center;
   margin-top: 6rem;
   margin-bottom: 6rem;
 `
 
-export const TitlePresentation = styled.h3`
+export const TitleHeaderPage = styled.h3`
   color: #000;
   font-weight: 500;
   font-size: 4rem;
@@ -20,7 +20,7 @@ export const Separator = styled.hr`
   }
 `
 
-export const TextPresentation = styled.p`
+export const TextHeaderPage = styled.p`
   color: #a7a9c0;
   font-size: 1.4rem;
 `
