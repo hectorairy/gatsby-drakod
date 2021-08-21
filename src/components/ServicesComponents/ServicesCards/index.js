@@ -43,7 +43,7 @@ export const ServicesCards = () => {
           <ServiceCard key={service.id} {...service} />
         ))}
       </ListServices>
-      <Button to="/contact">Platicanos de tu proyecto</Button>
+      <Button to="/contact">Platícanos de tu proyecto</Button>
     </div>
   )
 }
