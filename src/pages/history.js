@@ -20,8 +20,8 @@ const History = () => {
       <Banner
         imageBg={imageBg}
         section={"Nosotros"}
-        title={"Titulo"}
-        subtitle={"Subtitulo"}
+        title={"Somos especialistas en desarrollo web "}
+        subtitle={"Siempre en constante crecimiento"}
       />
       <h1>Nosotros</h1>
     </Layout>

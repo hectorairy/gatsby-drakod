@@ -2,6 +2,8 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { Banner } from "../components/Banner"
 import Layout from "../components/layout"
+import { ServicesPresentation } from "../components/ServicesComponents/ServicesPresentation"
+import { ServicesCards } from "../components/ServicesComponents/ServicesCards"
 
 const Services = () => {
   const { imageBg } = useStaticQuery(graphql`
@@ -20,10 +22,13 @@ const Services = () => {
       <Banner
         imageBg={imageBg}
         section={"Servicios"}
-        title={"Titulo"}
-        subtitle={"Subtitulo"}
+        title={"Conquistemos Internet juntos"}
+        subtitle={"Haremos que te enamores de tu web"}
       />
-      <h1>Servicios</h1>
+      <div className="container">
+        <ServicesPresentation />
+        <ServicesCards />
+      </div>
     </Layout>
   )
 }

@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "@emotion/styled"
 import { css } from "@emotion/react"
-import { mainServices } from "../../../data/services"
+import { services } from "../../../data/services"
 import { ServiceCard } from "../../ServiceCard"
 
 const ListServices = styled.ul`
@@ -28,7 +28,7 @@ const Button = styled(Link)`
   text-align: center;
 `
 
-export const ServicesIndex = () => {
+export const ServicesCards = () => {
   return (
     <div
       css={css`
@@ -39,11 +39,11 @@ export const ServicesIndex = () => {
       `}
     >
       <ListServices>
-        {mainServices.map(service => (
+        {services.map(service => (
           <ServiceCard key={service.id} {...service} />
         ))}
       </ListServices>
-      <Button to="/services">Conoce todos nuestros servicios</Button>
+      <Button to="/contact">Platicanos de tu proyecto</Button>
     </div>
   )
 }

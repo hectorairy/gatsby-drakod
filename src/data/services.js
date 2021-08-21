@@ -3,7 +3,7 @@ export const services = [
     id: 1,
     name: "Aplicaciones móviles",
     description:
-      "Hoy en día el acceso a las plataformas digitales por medio de teléfonos celulares es enorme. Por lo que el desarrollo de una aplicación móvil personalizada puede ofrecerle una gran ventaja competitiva a su empresa y promocionará su marca a un público más amplio. Nos enfocamos en el desarrollo de aplicaciones hibridas las cuales son capaces de ejecutarse en android como en iOS, Diseñamos aplicaciones con fines: corporativos, de marketing, de interacción con redes sociales, de entretenimiento y multimedia.Ofreciendo asesoría a nuestros clientes en cada uno de nuestros proyectos.",
+      "Hoy en día el acceso a las plataformas digitales por medio de teléfonos celulares es enorme. Por lo que el desarrollo de una aplicación móvil personalizada puede ofrecerle una gran ventaja competitiva a su empresa.",
   },
   {
     id: 2,
@@ -27,25 +27,25 @@ export const services = [
     id: 5,
     name: "E-Commerce",
     description:
-      "¿Cuántos de los productos o servicios que utilizas están ya al alcance de un dispositivo electrónico? Actualmente, el consumidor promedio prefiere adquirir mercancías a través de plataformas que faciliten el proceso de compra, ¿Ya pueden encontrar tu marca? Creamos tiendas virtuales para vender en cualquier parte del mundo . Nuestra equipo de trabajo, está especializado en crear tiendas online con sistema eCommerce de gran calidad. Vende a través de internet.",
+      "¿Cuántos de los productos o servicios que utilizas están ya al alcance de un dispositivo electrónico? Actualmente, el consumidor promedio prefiere adquirir mercancías a través de plataformas que faciliten el proceso de compra, ¿Ya pueden encontrar tu marca?",
   },
   {
     id: 6,
     name: "Mantenimiento",
     description:
-      "Todos nuestros desarrollos tienen una garantía de dos meses. Después de ese tiempo siempre es bueno tener en constante mantenimiento tu página, la tecnología igual avanza demasiado rápido!. Ofrecemos el servicio de mantenimiento por incidencia o por una cuota mensual, elige la que prefieras, además, también brindamos página y actualizaciones a tus páginas si las traes con nosotros.",
+      "Todos nuestros desarrollos tienen una garantía de dos meses. Después de ese tiempo siempre es bueno tener en constante mantenimiento tu página, la tecnología igual avanza demasiado rápido!",
   },
   {
     id: 7,
     name: "Marketing Digital",
     description:
-      "Cada día es más importante la presencia de las entidades en las Redes Sociales. Hoy en día las redes sociales son herramientas para poder posicionarnos desde local hasta globalmente. Por ello es muy importante que la entidad tenga un perfil adecuado en ellas y se utilice adecuadamente. Te ayudamos a manejar tus cuentas en redes sociales, dontándolo de contenido y generando tráfico en la red",
+      "Cada día es más importante la presencia de las entidades en las Redes Sociales. Hoy en día las redes sociales son herramientas para poder posicionarnos desde local hasta globalmente. Por ello es muy importante que la entidad tenga un perfil adecuado en ellas.",
   },
   {
     id: 8,
     name: "Motion Graphics",
     description:
-      "Los motion graphics son en esencia un tipo de animación, pero su propósito es distinto en varios sentidos. Los motion graphics te permiten desglosar tus servicios o productos complejos y presentarlos de una manera memorable. Nos adaptamos a tus necesidades para transmitir tu mensaje por medio de Motion graphics, haciend de esta, algo impactante, digerible y entretendio.",
+      "Los motion graphics son en esencia un tipo de animación, pero su propósito es distinto en varios sentidos. Los motion graphics te permiten desglosar tus servicios o productos complejos y presentarlos de una manera memorable.",
   },
   {
     id: 9,

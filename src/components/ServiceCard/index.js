@@ -25,6 +25,7 @@ export const ServiceCard = ({ id, name, description }) => {
         border-bottom: 3px solid #8338ec;
         border-radius: 6px 6px 6px 6px;
         margin-bottom: 2rem;
+        margin-top: 2rem;
       `}
     >
       <div
