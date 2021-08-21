@@ -58,11 +58,11 @@ export const Navbar = () => {
                 Servicios
               </NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink active={scroll} to="/portfolio" activeClassName="active">
                 Portafolio
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLink active={scroll} to="/contact" activeClassName="active">
                 Contacto
