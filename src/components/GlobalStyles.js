@@ -48,7 +48,7 @@ export const GlobalStyles = () => {
           .container {
             max-width: 1200px;
             margin: 0 auto;
-            width: 95%;
+            width: 90%;
           }
           img {
             max-width: 100%;

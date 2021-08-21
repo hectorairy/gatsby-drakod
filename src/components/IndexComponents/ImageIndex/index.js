@@ -33,7 +33,7 @@ export const ImageIndexBG = () => {
         <h2>para brindarte soluciones efectivas.</h2>
         <p>Creamos equipos con alma y proyectos con corazón.</p>
         <StaticImage
-          src="../../images/home-img.png"
+          src="../../../images/home-img.png"
           placeholder="none"
           alt="drakod"
         />

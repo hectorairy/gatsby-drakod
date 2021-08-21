@@ -10416,6 +10416,13 @@ react-side-effect@^2.1.0:
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.1.tgz#66c5701c3e7560ab4822a4ee2742dee215d72eb3"
   integrity sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ==
 
+react-tiny-slider@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-tiny-slider/-/react-tiny-slider-1.0.6.tgz#ccc3e571fa24676ba97a54989d47219998d779dc"
+  integrity sha512-A/vMqtQyzBThnVQZDUNA5gVgtx9CDR0oPZd5haEHVI8bg3Z82OHwS7NQ6LmFLdzegftn7VDXbl5Ciyy1X8cL7g==
+  dependencies:
+    tiny-slider "^2.9.3"
+
 react@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
@@ -12038,6 +12045,11 @@ timsort@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
+
+tiny-slider@^2.9.3:
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/tiny-slider/-/tiny-slider-2.9.3.tgz#94d8158f704f3192fef1634c0ae6779fb14ea04e"
+  integrity sha512-KZY45m+t3fb3Kwlqsic0PIos1lgTNXBEC5N/AhI3aNEcryrd0nXohZMbVPMkcNYdbLjY1IUJAXWYAO6/RGJnKw==
 
 tinycolor2@^1.4.1:
   version "1.4.2"

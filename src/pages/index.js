@@ -1,12 +1,25 @@
 import React from "react"
-import { ImageIndexBG } from "../components/ImageIndex"
 import Layout from "../components/layout"
+import { ImageIndexBG } from "../components/IndexComponents/ImageIndex"
+import { Presentation } from "../components/IndexComponents/Presentation"
+import { ServicesIndex } from "../components/IndexComponents/ServicesIndex"
+import { BannerFounder } from "../components/IndexComponents/BannerFounder"
+import { Technologies } from "../components/IndexComponents/Technologies"
+import { Testimonials } from "../components/IndexComponents/Testimonials"
 
 const Index = () => {
   return (
     <Layout>
       <ImageIndexBG />
-      <h1>Inicio</h1>
+      <div className="container">
+        <Presentation />
+        <ServicesIndex />
+      </div>
+      <BannerFounder />
+      <div className="container">
+        <Technologies />
+        <Testimonials />
+      </div>
     </Layout>
   )
 }
