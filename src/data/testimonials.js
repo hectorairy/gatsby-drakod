@@ -16,7 +16,7 @@ export const testimonials = [
     position: "CTO en Caja de Pixeles",
   },
   {
-    id: 2,
+    id: 3,
     testimonial:
       "Gracias al Desarrollo de una aplicación y una página web propuesta por el equipo de DrakoD, nuestras expectativas han ido resolviéndose tal y como queríamos.",
     letter: "IS",

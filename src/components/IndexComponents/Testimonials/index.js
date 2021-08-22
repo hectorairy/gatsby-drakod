@@ -1,5 +1,5 @@
 import React, { useRef } from "react"
-import Carousel from "react-tiny-slider"
+import TinySlider from "tiny-slider-react"
 import { testimonials } from "../../../data/testimonials"
 import { Testimonial } from "./Testimonial"
 import {
@@ -13,7 +13,13 @@ import {
 
 export const Testimonials = () => {
   const carousel = useRef(null)
-  const onGoTo = dir => carousel.current.goTo(dir)
+  const settings = {
+    lazyload: true,
+    nav: false,
+    mouseDrag: true,
+    controls: false, // remove built-in nav buttons
+  }
+  const onGoTo = dir => carousel.current.slider.goTo(dir)
 
   return (
     <SectionTestimonials>
@@ -22,18 +28,11 @@ export const Testimonials = () => {
         <TextTestimonials>¿Quieres saber porqué?</TextTestimonials>
       </SideBar>
       <div>
-        <Carousel
-          swipeAngle={false}
-          items={1}
-          mouseDrag
-          ref={carousel}
-          controls={false}
-          nav={false}
-        >
+        <TinySlider settings={settings} ref={carousel}>
           {testimonials.map(testimonial => {
             return <Testimonial key={testimonial.id} {...testimonial} />
           })}
-        </Carousel>
+        </TinySlider>
         <ButtonLeft onClick={() => onGoTo("prev")} />
         <ButtonRight onClick={() => onGoTo("next")} />
       </div>

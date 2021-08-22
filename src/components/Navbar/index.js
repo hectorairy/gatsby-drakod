@@ -10,6 +10,8 @@ import {
   NavMenu,
 } from "./NavbarElements"
 
+const isBrowser = typeof window !== "undefined"
+
 export const Navbar = () => {
   const [scroll, setScroll] = useState(0)
   const [click, setClick] = useState(0)
@@ -25,10 +27,12 @@ export const Navbar = () => {
   }
 
   useEffect(() => {
-    changeNav()
-    window.addEventListener("scroll", changeNav)
-    return () => {
-      window.removeEventListener("scroll", changeNav)
+    if (isBrowser) {
+      changeNav()
+      window.addEventListener("scroll", changeNav)
+      return () => {
+        window.removeEventListener("scroll", changeNav)
+      }
     }
   }, [])
 

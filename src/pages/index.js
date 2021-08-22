@@ -18,7 +18,7 @@ const Index = () => {
       <BannerFounder />
       <div className="container">
         <Technologies />
-        <Testimonials />
+        {typeof window !== "undefined" && <Testimonials />}
       </div>
     </Layout>
   )
