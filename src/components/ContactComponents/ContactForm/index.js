@@ -50,13 +50,17 @@ export const ContactForm = () => {
 
   return (
     <Form
-      autoComplete="off"
       name="contact"
       method="POST"
       data-netlify="true"
-      id="contactForm"
+      data-netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
+      id="contactForm"
     >
+      <Input type="hidden" name="form-name" value="contact" />
+      <div hidden>
+        <Input name="bot-field" />
+      </div>
       <Label>Nombre *</Label>
       <Input
         type="text"
