@@ -22,6 +22,8 @@ export const BannerFounder = () => {
           <StaticImage
             src="../../../images/founder.png"
             placeholder="none"
+            width={200}
+            height={200}
             css={css`
               margin-top: 1rem;
               border-radius: 50%;

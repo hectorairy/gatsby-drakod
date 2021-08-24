@@ -52,6 +52,8 @@ export const GlobalStyles = () => {
           }
           img {
             max-width: 100%;
+            width: 47px;
+            height: 47px;
           }
         `}
       />
