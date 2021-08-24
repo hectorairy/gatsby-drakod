@@ -24,7 +24,9 @@ export const Testimonials = () => {
   return (
     <SectionTestimonials>
       <SideBar>
-        <TitleTestimonials>¡Nuestros clientes nos quieren!</TitleTestimonials>
+        <TitleTestimonials>
+          ¡La opinión de nuestros clientes nos avala!
+        </TitleTestimonials>
         <TextTestimonials>¿Quieres saber porqué?</TextTestimonials>
       </SideBar>
       <div>

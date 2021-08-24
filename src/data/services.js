@@ -3,7 +3,7 @@ export const services = [
     id: 1,
     name: "Aplicaciones móviles",
     description:
-      "Hoy en día el acceso a las plataformas digitales por medio de teléfonos celulares es enorme. Por lo que el desarrollo de una aplicación móvil personalizada puede ofrecerle una gran ventaja competitiva a su empresa.",
+      "Actualmente, el acceso a las plataformas digitales a través (o poe medio) [del uso] de teléfonos celulares (teléfonos inteligentes) es masivo. Por lo que el desarrollo de una aplicación móvil personalizada puede ofrecer una ventaja competitiva de una empresa sobre otras.",
   },
   {
     id: 2,
