@@ -47,18 +47,21 @@ export const Footer = () => {
             <ExternalLinks>
               <ExternalLink
                 href="https://www.facebook.com/DrakodAgency"
+                rel="noreferrer"
                 target="_blank"
               >
                 <SiFacebook />
               </ExternalLink>
               <ExternalLink
                 href="https://www.instagram.com/drakod_agency/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <SiInstagram />
               </ExternalLink>
               <ExternalLink
                 href="https://www.linkedin.com/company/drakod"
+                rel="noreferrer"
                 target="_blank"
               >
                 <SiLinkedin />

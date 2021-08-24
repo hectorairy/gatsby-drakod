@@ -33,18 +33,21 @@ export const InfoContact = () => {
       <Social>
         <SocialLink
           href="https://www.facebook.com/DrakodAgency"
+          rel="noreferrer"
           target="_blank"
         >
           <SiFacebook />
         </SocialLink>
         <SocialLink
           href="https://www.instagram.com/drakod_agency/"
+          rel="noreferrer"
           target="_blank"
         >
           <SiInstagram />
         </SocialLink>
         <SocialLink
           href="https://www.linkedin.com/company/drakod"
+          rel="noreferrer"
           target="_blank"
         >
           <SiLinkedin />
