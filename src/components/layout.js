@@ -28,6 +28,7 @@ const Layout = ({ children }) => {
       <ThemeProvider theme={themes[theme]}>
         <GlobalStyles />
         <Helmet>
+          <html lang="es" />
           <title>DrakoD</title>
           <meta name="description" content="Sitio de bienes raices en Gatsby" />
           <link

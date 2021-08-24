@@ -34,7 +34,7 @@ export const Teammate = ({
 
   const imagenesIconos = iconos.edges
   return (
-    <div
+    <li
       css={css`
         background: #fff;
         box-shadow: 0 0 5px rgba(131, 56, 236, 0.3);
@@ -76,6 +76,6 @@ export const Teammate = ({
         </p>
         <p>{description}</p>
       </div>
-    </div>
+    </li>
   )
 }
