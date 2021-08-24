@@ -21,7 +21,7 @@ const Contact = () => {
   `)
 
   const Container = styled.div`
-    margin: 0 auto;
+    margin: 0 auto 4rem auto;
 
     @media (min-width: 768px) {
       display: grid;
