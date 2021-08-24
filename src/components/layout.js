@@ -29,8 +29,24 @@ const Layout = ({ children }) => {
         <GlobalStyles />
         <Helmet>
           <html lang="es" />
-          <title>DrakoD</title>
-          <meta name="description" content="Sitio de bienes raices en Gatsby" />
+          <title>DrakoD </title>
+          <meta charset="utf-8" />
+          <meta
+            name="description"
+            content="Empresa de desarrollo especializada en la creación de páginas web, paquetes con diseño en WordPress, posicionamiento SEO, diseño gráfico, marketing digital y publicidad (Adwords), animación, tiendas en línea y creación de aplicaciones móviles y web hechas a la medida, formada por un equipo de jóvenes que suman sus habilidades para generar soluciones innovadoras, creativas y originales."
+          />
+          <meta name="robots" content="index, follow" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <meta
+            name="keywords"
+            content="páginas web, paquetes con diseño en WordPress, WordPress, posicionamiento SEO, SEO, diseño gráfico, marketing digital, publicidad, Adwords, animación, tiendas en línea, e-commerce, aplicaciones móviles, app móvil, web a la medida, desarrollo web"
+          />
+          <meta name="author" content="DrakoD" />
+
+          <meta name="copyright" content="DrakoD" />
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
