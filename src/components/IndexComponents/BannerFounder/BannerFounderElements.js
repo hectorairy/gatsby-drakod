@@ -19,9 +19,13 @@ export const FooterBanner = styled.div`
   align-items: center;
 
   p {
+    text-align: center;
     margin-left: 2rem;
-    color: #a7a9c0;
+    font-size: 1.4rem;
+    color: #00b4d8;
     span {
+      font-size: 1.6rem;
+
       font-weight: 600;
       color: #8338ec;
     }
