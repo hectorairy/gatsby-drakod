@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import { Banner } from "../components/Banner"
+import { BannerHead } from "../components/BannerHead"
 import Layout from "../components/layout"
 
 const Portfolio = () => {
@@ -17,7 +17,7 @@ const Portfolio = () => {
   `)
   return (
     <Layout>
-      <Banner
+      <BannerHead
         imageBg={imageBg}
         section={"Portafolio"}
         title={"Titulo"}

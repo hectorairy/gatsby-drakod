@@ -4,9 +4,9 @@ import {
   BannerOverlay,
   BannerBg,
   BannerContainer,
-} from "./BannerElements"
+} from "./BannerHeadElements"
 
-export const Banner = ({ imageBg, section, title, subtitle }) => {
+export const BannerHead = ({ imageBg, section, title, subtitle }) => {
   return (
     <BannerSection>
       <BannerOverlay>

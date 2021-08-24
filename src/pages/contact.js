@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import { Banner } from "../components/Banner"
+import { BannerHead } from "../components/BannerHead"
 import Layout from "../components/layout"
 import { HeaderPage } from "../components/HeaderPage"
 import styled from "@emotion/styled"
@@ -32,7 +32,7 @@ const Contact = () => {
 
   return (
     <Layout>
-      <Banner
+      <BannerHead
         imageBg={imageBg}
         section={"Contacto"}
         title={"¿Necesita contactarnos?"}
