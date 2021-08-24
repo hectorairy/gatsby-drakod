@@ -11,10 +11,11 @@ import {
 export const InfoContact = () => {
   return (
     <InfoContainer>
-      <InfoTitle>¿Necesitas un presupuesto para tu proyecto?</InfoTitle>
+      <InfoTitle>¿Necesitas una cotización para tu proyecto?</InfoTitle>
       <InfoText>
-        En ese caso, puedes enviarnos toda la información que necesitamos,
-        fácilmente en 1 minuto, desde nuestro formulario.
+        Envíanos toda tu información llenando nuestro formulario, ¡te
+        responderemos a la brevedad con una cotización adaptada a tus
+        necesidades y presupuesto!
       </InfoText>
       <InfoTitle>Información</InfoTitle>
       <InfoText>
