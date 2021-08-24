@@ -17,7 +17,6 @@ export const Footer = () => {
         css={css`
           background: rgb(34, 32, 16);
 
-          margin-top: 5rem;
           padding: 1rem;
 
           p {
