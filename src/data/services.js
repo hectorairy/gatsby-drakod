@@ -9,7 +9,7 @@ export const services = [
     id: 2,
     name: "Asesorías",
     description:
-      "Es importante saber cúal es la mejor opción para tu negocio, por eso, ofrecemos la opción de asesorías para poder explicarte cada uno de nuestros servicios y que nos platiques sobre ti y tus expectativas para poder elegir la mejor opción.",
+      "Es importante saber cúal es la mejor opción para tu negocio, por eso, ofrecemos asesorías para poder explicarte cada uno de nuestros servicios y que nos platiques sobre ti y tus expectativas para poder elegir la mejor solución.",
   },
   {
     id: 3,
@@ -60,7 +60,7 @@ export const mainServices = [
     id: 2,
     name: "Asesorías",
     description:
-      "Es importante saber cúal es la mejor opción para tu negocio, por eso, ofrecemos la opción de asesorías para poder explicarte cada uno de nuestros servicios y que nos platiques sobre ti y tus expectativas para poder elegir la mejor opción.",
+      "Es importante saber cúal es la mejor opción para tu negocio, por eso, ofrecemos asesorías para poder explicarte cada uno de nuestros servicios y que nos platiques sobre ti y tus expectativas para poder elegir la mejor solución.",
   },
   {
     id: 4,

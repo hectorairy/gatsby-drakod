@@ -19,8 +19,8 @@ export const InfoContact = () => {
       </InfoText>
       <InfoTitle>Información</InfoTitle>
       <InfoText>
-        Si necesitas alguna otra información comunicate con nosotros por los
-        siguientes medios:
+        Si tienes alguna duda, comunicate con nosotros por los siguientes
+        medios:
       </InfoText>
       <InfoText>
         Correo:{" "}
