@@ -2,8 +2,9 @@ import React from "react"
 import { css } from "@emotion/react"
 import { graphql, useStaticQuery } from "gatsby"
 import styled from "@emotion/styled"
+import { GatsbyImage } from "gatsby-plugin-image"
 
-const Avatar = styled.img`
+const Avatar = styled(GatsbyImage)`
   border-radius: 50%;
   height: 200px;
   width: 200px;
@@ -19,20 +20,25 @@ export const Teammate = ({
   secondPosition,
   description,
 }) => {
-  const { iconos } = useStaticQuery(graphql`
+  const { teammates } = useStaticQuery(graphql`
     query {
-      iconos: allFile(filter: { relativeDirectory: { eq: "team" } }) {
+      teammates: allFile(
+        filter: { relativeDirectory: { eq: "team" } }
+        sort: { fields: name, order: ASC }
+      ) {
         edges {
           node {
-            id
-            publicURL
+            name
+            childImageSharp {
+              gatsbyImageData
+            }
           }
         }
       }
     }
   `)
-
-  const imagenesIconos = iconos.edges
+  const imageTeammate = teammates.edges
+  console.log(imageTeammate[0])
   return (
     <li
       css={css`
@@ -65,7 +71,10 @@ export const Teammate = ({
           }
         `}
       >
-        <Avatar src={imagenesIconos[id - 1].node.publicURL} alt="iconos" />
+        <Avatar
+          image={imageTeammate[id - 1].node.childImageSharp.gatsbyImageData}
+          alt={`DrakoD - ${name}`}
+        />
 
         <p className="name">
           <span>{name}</span>
